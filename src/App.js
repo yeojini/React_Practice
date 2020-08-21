@@ -1,45 +1,10 @@
 "use strict";
 
 import React, { useState } from "react";
-import InputRoot from "./components/InputRoot";
-import DisplayRoot from "./components/DisplayRoot";
+import AppWithoutRedux from './components/AppWithoutRedux/AppWithoutRedux';
+import AppWithRedux from './components/AppWithRedux/AppWithRedux';
+import AppWithReduxMiddleware from './components/AppWithReduxMiddleware/AppWithReduxMiddleware';
 import './App.css';
-
-const AppWithoutRedux = ({ rootName }) => {
-  const [number, setNumber] = useState('0');
-  return (
-    <div className='App'>
-      <h1>{rootName}</h1>
-      <InputRoot handleSend={(transferNumber) => {
-        setNumber(transferNumber);
-      }}></InputRoot>
-      <DisplayRoot number={number}></DisplayRoot>
-    </div>
-  );
-}
-
-const AppWithRedux = ({ rootName }) => {
-  return (
-    <div className='App'>
-      <h1>{rootName}</h1>
-      <InputRoot></InputRoot>
-      <DisplayRoot></DisplayRoot>
-    </div>
-  );
-}
-
-const AppWithReduxMiddleware = ({ rootName }) => {
-  const [number, setNumber] = useState('0');
-  return (
-    <div className='App'>
-      <h1>{rootName}</h1>
-      <InputRoot handleSend={(transferNumber) => {
-        setNumber(transferNumber);
-      }}></InputRoot>
-      <DisplayRoot number={number}></DisplayRoot>
-    </div>
-  );
-};
 
 const App = () => {
   return (
