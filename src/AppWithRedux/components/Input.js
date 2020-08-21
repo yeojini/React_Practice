@@ -5,6 +5,7 @@ const Input = () => {
     return (
         <div className="Child">
             <h1>Input</h1>
+            <input type="number"></input>
         </div>
     );
 }

@@ -2,7 +2,7 @@ enum ActionEnum {
     ADD,
     SUBTRACT,
     MULTIPLE,
-    DIVIDE
+    DIVIDE,
 }
 
 export default ActionEnum;
