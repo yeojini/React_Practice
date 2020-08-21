@@ -1,9 +1,9 @@
 "use strict";
 
 import React, { useState } from "react";
-import AppWithoutRedux from './components/AppWithoutRedux/AppWithoutRedux';
-import AppWithRedux from './components/AppWithRedux/AppWithRedux';
-import AppWithReduxMiddleware from './components/AppWithReduxMiddleware/AppWithReduxMiddleware';
+import AppWithoutRedux from './AppWithoutRedux/AppWithoutRedux';
+import AppWithRedux from './AppWithRedux/AppWithRedux';
+import AppWithReduxMiddleware from './AppWithReduxMiddleware/AppWithReduxMiddleware';
 import './App.css';
 
 const App = () => {

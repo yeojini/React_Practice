@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Child.css';
+import '../../style/Child.css';
 
 const Display = () => {
     return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Child.css';
+import '../style/Child.css';
 
 export const Input = ({ number, sum, sumClear, onClickResultSend }) => {
     //비구조화할당문법을 파라미터에. = const { number, children } = props

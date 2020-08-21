@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import InputRoot from './containers/InputRoot';
-import DisplayRoot from './containers/DisplayRoot';
+import Input from './components/Input';
+import Display from './components/Display';
 
 const AppWithRedux = ({ rootName }) => {
     return (
         <div className='App'>
             <h1>{rootName}</h1>
-            <InputRoot></InputRoot>
-            <DisplayRoot></DisplayRoot>
+            <Input></Input>
+            <Display></Display>
         </div>
     );
 }

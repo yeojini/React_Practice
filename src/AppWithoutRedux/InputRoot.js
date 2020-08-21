@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Parent.css';
+import '../style/Parent.css';
 import { Input } from './Input';
 
 const InputRoot = ({ handleSend }) => {

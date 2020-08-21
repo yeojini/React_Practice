@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Parent.css';
+import '../../style/Parent.css';
 import Display from './Display';
 
 const DisplayRoot = () => {
